@@ -3,13 +3,19 @@
 *{
   margin: 0;
   padding: 0;
+  color: #323232;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 h1 {
   margin: 1rem;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -20,21 +26,35 @@ h1 {
 .results {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .result {
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   width: 300px;
-  border: 1px solid grey;
   border-radius: 1rem;
+  background-color: #008CDD;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+p, b {
+  color: azure;
 }
 
 .error {
   border: 1px solid darkred;
-  padding: 1rem;
+  padding: 3rem;
+  font-size: 22px;
   color: darkred;
   background: rgba(255, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
 .lds-facebook {

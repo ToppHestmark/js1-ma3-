@@ -22,7 +22,7 @@ const createHTML = (result) => {
     resultsContainer.innerHTML += `<div class="result">
       <p>Name: <b>${facts[i].name}</b></p>
       <p>Rating: <b>${facts[i].rating}</b></p>
-      <p>Number of Tags: <b>${numberOfTags}</b></p>
+      <p>Tags: <b>${numberOfTags}</b></p>
       </div>`
   }
 }
